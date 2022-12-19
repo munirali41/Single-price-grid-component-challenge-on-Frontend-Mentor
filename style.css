@@ -63,10 +63,10 @@
   }
   .area2 button {
     width: 200px;
-    height: 30px;
+    height: 40px;
     background: #bfdf32;
     color: #e9f2c1;
-    border-radius: 5px;
+    border-radius: 3px;
     margin-top: 10px;
     margin-bottom: 15px;
     padding: 5px;
@@ -78,6 +78,109 @@
     padding: 20px;
   }
   .area3 h3 {
+    color: #e9ffff;
+    margin-left: 10px;
+  }
+  .area3 li {
+    list-style-type: none;
+    margin-left: -25px;
+    color: #97edf0;
+  }
+}
+/* Desktop */
+@media screen and (min-device-width: 1400px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400, 700;
+    height: 100vh;
+    width: 100%;
+    background: #e6eff6;
+  }
+
+  .gridcontainer {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px 1fr 1fr;
+
+    margin-left: 450px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+  }
+  .area1 {
+    grid-column: span 12;
+    width: 50%;
+    height: 125px;
+    background: #ffffff;
+    padding: 20px;
+  }
+  .area1 h1 {
+    color: #3d9b9a;
+    font-size: 16px;
+  }
+  .area1 h3 {
+    color: hsl(71, 73%, 54%);
+    font-size: 16px;
+  }
+  .area1 p {
+    color: #b4b7be;
+  }
+  .Flexthetwo {
+    width: 54%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+  }
+  .area2 {
+    grid-column: span 12;
+    width: 50%;
+    height: 180px;
+    background: #2bb3b1;
+    padding: 20px;
+  }
+  .area2 > * {
+    margin: 10px;
+  }
+  .area2 h3 {
+    font-size: 16px;
+
+    color: #deffff;
+  }
+  .area2 .bright {
+    font-size: 25px;
+    color: #eeffff;
+    font-weight: bolder;
+  }
+  .area2 .opacity {
+    margin-left: 6px;
+    font-size: 16px;
+    color: #66d3d3;
+    padding-bottom: 10px;
+  }
+  .area2 p {
+    color: #beefef;
+    font-size: 12px;
+  }
+  .area2 button {
+    width: 200px;
+    height: 40px;
+    background: #bfdf32;
+    color: #e9f2c1;
+    border-radius: 3px;
+    margin-top: 22px;
+    margin-bottom: 15px;
+    padding: 5px;
+  }
+  .area3 {
+    grid-column: span 12;
+    width: 50%;
+    height: 180px;
+    background: #4abebd;
+    padding: 20px;
+    padding-top: -10px;
+    line-height: 20px;
+  }
+  .area3 h3 {
+    margin-top: 1px;
     color: #e9ffff;
     margin-left: 10px;
   }
