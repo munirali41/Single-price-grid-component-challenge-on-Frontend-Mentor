@@ -30,6 +30,7 @@
   }
   .area1 p {
     color: #b4b7be;
+    line-height: 30px;
   }
 
   .area2 {
@@ -109,7 +110,7 @@
   .area1 {
     grid-column: span 12;
     width: 50%;
-    height: 125px;
+    height: 140px;
     background: #ffffff;
     padding: 20px;
   }
@@ -123,6 +124,7 @@
   }
   .area1 p {
     color: #b4b7be;
+    line-height: 30px;
   }
   .Flexthetwo {
     width: 54%;
@@ -165,10 +167,10 @@
     height: 40px;
     background: #bfdf32;
     color: #e9f2c1;
-    border-radius: 3px;
+    border-radius: 5px;
     margin-top: 22px;
     margin-bottom: 15px;
-    padding: 5px;
+    padding: 4px;
   }
   .area3 {
     grid-column: span 12;
